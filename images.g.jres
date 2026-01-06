@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQOABAAAAAAAAAAAAAAAAAAAAAADgAAAADuDuAAAAAA4t0ODgAAACDi7t0OAAAAIOLt3SJSAAAg0t3d7gIAACDS3d3uAgAAIOLe3i5SAAAA0u3e4AAAAAAC3d7gAAAAAALdDuAAAAAAANAAAAAAAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "mario"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
