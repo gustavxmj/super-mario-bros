@@ -5,7 +5,6 @@ namespace myImages {
         switch(helpers.stringTrim(name)) {
             case "image1":
             case "mario":return img`
-. . . . . . . . . . . . . . 
 . . . . 2 2 2 2 2 . . . . . 
 . . . 2 2 2 2 2 2 2 2 2 . . 
 . . . e e e d d e d . . . . 
@@ -14,13 +13,14 @@ namespace myImages {
 . . e e d d d d e e e e . . 
 . . . . d d d d d d d . . . 
 . . . e e 2 e e e . . . . . 
-. . e . . 2 e e 2 e e e . . 
-. e . . . 2 2 2 2 . . . . . 
-. . . . . 5 . . 5 . . . . . 
-. . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . 
+. . e e e 2 e e 2 e e e . . 
+. e e e e 2 2 2 2 e e e e . 
+. d d e 2 5 2 2 5 2 e d d . 
+. d d d 2 2 2 2 2 2 d d d . 
+. d d 2 2 2 2 2 2 2 2 d d . 
+. . . 2 2 2 . . 2 2 2 . . . 
+. . e e e . . . . e e e . . 
+. e e e e . . . . e e e e . 
 `;
         }
         return null;
