@@ -60,6 +60,8 @@ function make_goombas () {
         500,
         true
         )
+        tiles.setTileAt(value, assets.tile`transparency16`)
+        tiles.placeOnTile(goomba, value)
     }
 }
 let goomba: Sprite = null
