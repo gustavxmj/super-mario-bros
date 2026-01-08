@@ -57,7 +57,7 @@ function make_goombas () {
             . . . f f f d d d f f f f f f . 
             . . . . f f f d d f f f f f . . 
             `],
-        200,
+        500,
         true
         )
     }

@@ -51,4 +51,4 @@ e e e e e e e e e e e e e e e e
 . . . f f d d d d d f f f f f . 
 . . . f f f d d d f f f f f f . 
 . . . . f f f d d f f f f f . . 
-`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="CS+ZyGlSH5]drQip@R8D"><field name="ms">200</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="1+Be1j{U%ggI8gtH5Hk}"><field name="on">true</field></shadow></value></block></next></block></statement></block></statement></block></xml>
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="CS+ZyGlSH5]drQip@R8D"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="1+Be1j{U%ggI8gtH5Hk}"><field name="on">true</field></shadow></value></block></next></block></statement></block></statement></block></xml>
