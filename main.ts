@@ -17,7 +17,7 @@ function make_goombas () {
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
-            `, SpriteKind.Player)
+            `, SpriteKind.Enemy)
         animation.runImageAnimation(
         goomba,
         [img`
@@ -71,3 +71,4 @@ let mario = sprites.create(assets.image`mario`, SpriteKind.Player)
 controller.moveSprite(mario)
 scene.cameraFollowSprite(mario)
 mario.ay = 200
+make_goombas()
