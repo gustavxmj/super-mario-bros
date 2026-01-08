@@ -64,6 +64,9 @@ function make_goombas () {
         tiles.placeOnTile(goomba, value)
     }
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    game.gameOver(false)
+})
 let goomba: Sprite = null
 scene.setBackgroundColor(9)
 tiles.setCurrentTilemap(tilemap`1-1`)
