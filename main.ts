@@ -65,12 +65,17 @@ function make_goombas () {
     }
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    game.gameOver(false)
+    if (mario.x == goomba.x) {
+    	
+    } else if (false) {
+        game.gameOver(false)
+    }
 })
 let goomba: Sprite = null
+let mario: Sprite = null
 scene.setBackgroundColor(9)
 tiles.setCurrentTilemap(tilemap`1-1`)
-let mario = sprites.create(assets.image`mario`, SpriteKind.Player)
+mario = sprites.create(assets.image`mario`, SpriteKind.Player)
 controller.moveSprite(mario)
 scene.cameraFollowSprite(mario)
 mario.ay = 200
