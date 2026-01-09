@@ -65,9 +65,9 @@ function make_goombas () {
     }
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    if (mario.y == goomba.y) {
-    	
-    } else if (false) {
+    if (mario.y < goomba.y - 8) {
+        sprites.destroy(otherSprite)
+    } else {
         game.gameOver(false)
     }
 })
