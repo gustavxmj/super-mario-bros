@@ -76,7 +76,7 @@ let mario: Sprite = null
 scene.setBackgroundColor(9)
 tiles.setCurrentTilemap(tilemap`1-1`)
 mario = sprites.create(assets.image`mario`, SpriteKind.Player)
-controller.moveSprite(mario)
+controller.moveSprite(mario, 100, 0)
 scene.cameraFollowSprite(mario)
 mario.ay = 200
 make_goombas()
