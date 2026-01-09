@@ -1,5 +1,5 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    mario.vy = 150
+    mario.vy = -150
 })
 function make_goombas () {
     for (let value of tiles.getTilesByType(assets.tile`myTile2`)) {
